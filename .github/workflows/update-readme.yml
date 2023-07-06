@@ -25,7 +25,7 @@ jobs: # 실제 실행될 내용
         python update.py
     - name: Commit changes # 3) 추가된 파일 commit
       run: |
-        git remote set-url https://github.com/rotomoo/One-Day-One-Algorithm
+        git remote set-url --add https://github.com/rotomoo/One-Day-One-Algorithm
         git config --local user.name 'rotomoo' # 유저명
         git config --local user.email 'quddlf410@naver.com' # 유저 이메일
         git add -A
