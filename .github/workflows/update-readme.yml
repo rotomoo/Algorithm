@@ -25,7 +25,6 @@ jobs: # 실제 실행될 내용
         python update.py
     - name: Commit changes # 3) 추가된 파일 commit
       run: |
-        git remote -v
         git config --global user.name 'rotomoo' # 유저명
         git config --global user.email 'quddlf410@naver.com' # 유저 이메일
         git add -A
