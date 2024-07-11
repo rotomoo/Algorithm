@@ -1,76 +1,92 @@
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
 public class Main {
-    static class LineSegment implements Comparable<LineSegment> {
-        long sx, sy, ex, ey, weight;
 
-        LineSegment(long weight, long sx, long sy, long ex, long ey) {
-            this.weight = weight;
+    static int n;
+    static long answer;
+    static List<Sword> swords;
+
+    static class Sword implements Comparable<Sword> {
+
+        long sx, sy, ex, ey, w;
+
+        public Sword(long sx, long sy, long ex, long ey, long w) {
             this.sx = sx;
             this.sy = sy;
             this.ex = ex;
             this.ey = ey;
+            this.w = w;
+        }
+
+        public Boolean crossYn(Sword targetSword) {
+            int ccw1 = ccw(this.sx, this.sy, this.ex, this.ey, targetSword.sx, targetSword.sy);
+            int ccw2 = ccw(this.sx, this.sy, this.ex, this.ey, targetSword.ex, targetSword.ey);
+            int ccw3 = ccw(targetSword.sx, targetSword.sy, targetSword.ex, targetSword.ey, this.sx, this.sy);
+            int ccw4 = ccw(targetSword.sx, targetSword.sy, targetSword.ex, targetSword.ey, this.ex, this.ey);
+
+            if (ccw1 * ccw2 == 0 && ccw3 * ccw4 == 0) {
+                if (Math.max(this.sx, this.ex) < Math.min(targetSword.sx, targetSword.ex) || Math.max(targetSword.sx, targetSword.ex) < Math.min(this.sx, this.ex) ||
+                    Math.max(this.sy, this.ey) < Math.min(targetSword.sy, targetSword.ey) || Math.max(targetSword.sy, targetSword.ey) < Math.min(this.sy, this.ey)) {
+                    return false;
+                }
+                return true;
+            }
+            return ccw1 * ccw2 <= 0 && ccw3 * ccw4 <= 0;
+        }
+
+        private int ccw(long ax, long ay, long bx, long by, long cx, long cy) {
+            long area = (bx - ax) * (cy - ay) - (by - ay) * (cx - ax);
+            return Long.compare(area, 0);
         }
 
         @Override
-        public int compareTo(LineSegment other) {
-            return Long.compare(this.weight, other.weight);
+        public int compareTo(Sword o) {
+            return Long.compare(this.w, o.w);
         }
     }
 
-    static int ccw(long ax, long ay, long bx, long by, long cx, long cy) {
-        long t = (ax - bx) * (cy - by) - (ay - by) * (cx - bx);
-        return Long.compare(t, 0);
-    }
-
-    static boolean cross(LineSegment a, LineSegment b) {
-        int abc = ccw(a.sx, a.sy, a.ex, a.ey, b.sx, b.sy);
-        int abd = ccw(a.sx, a.sy, a.ex, a.ey, b.ex, b.ey);
-        int cda = ccw(b.sx, b.sy, b.ex, b.ey, a.sx, a.sy);
-        int cdb = ccw(b.sx, b.sy, b.ex, b.ey, a.ex, a.ey);
-
-        if (abc * abd == 0 && cda * cdb == 0) {
-            if (Math.max(a.sx, a.ex) < Math.min(b.sx, b.ex) || Math.max(b.sx, b.ex) < Math.min(a.sx, a.ex) ||
-                Math.max(a.sy, a.ey) < Math.min(b.sy, b.ey) || Math.max(b.sy, b.ey) < Math.min(a.sy, a.ey)) {
-                return false;
+    public static void cut() {
+        for (int i = 0; i < swords.size(); i++) {
+            int m = 0;
+            Sword sword = swords.get(i);
+            for (int j = i + 1; j < swords.size(); j++) {
+                Sword sword2 = swords.get(j);
+                if (sword.crossYn(sword2)) {
+                    m++;
+                }
             }
-            return true;
+            answer += (m + 1) * sword.w;
         }
-        return abc * abd <= 0 && cda * cdb <= 0;
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-        List<LineSegment> segments = new ArrayList<>();
+        n = Integer.parseInt(br.readLine());
+        answer = 0;
 
+        swords = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int sx = Integer.parseInt(st.nextToken());
-            int sy = Integer.parseInt(st.nextToken());
-            int ex = Integer.parseInt(st.nextToken());
-            int ey = Integer.parseInt(st.nextToken());
-            int weight = Integer.parseInt(st.nextToken());
-            segments.add(new LineSegment(weight, sx, sy, ex, ey));
+
+            swords.add(new Sword(
+                Long.parseLong(st.nextToken()),
+                Long.parseLong(st.nextToken()),
+                Long.parseLong(st.nextToken()),
+                Long.parseLong(st.nextToken()),
+                Long.parseLong(st.nextToken())
+            ));
         }
 
-        Collections.sort(segments);
+        Collections.sort(swords);
 
-        long ans = 0;
-        for (int i = 0; i < n; i++) {
-            long m = 0;
-            for (int j = i + 1; j < n; j++) {
-                if (cross(segments.get(i), segments.get(j))) m++; // 교차점 개수 count
-            }
-            ans += (m + 1) * segments.get(i).weight;
-        }
+        cut();
 
-        System.out.println(ans);
+        System.out.println(answer);
     }
 }
