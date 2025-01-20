@@ -6,6 +6,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.java)|
+|10039. 평균 점수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10039.%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%A0%90%EC%88%98/README.md)|
 |10174. 팰린드롬|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10174.%E2%80%85%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC/README.md)|
 |10699. 오늘 날짜|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10699.%E2%80%85%EC%98%A4%EB%8A%98%E2%80%85%EB%82%A0%EC%A7%9C/README.md)|
 |13136. Do Not Touch Anything|[링크](./%EB%B0%B1%EC%A4%80/Bronze/13136.%E2%80%85Do%E2%80%85Not%E2%80%85Touch%E2%80%85Anything/Do%E2%80%85Not%E2%80%85Touch%E2%80%85Anything.java)|
