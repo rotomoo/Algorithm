@@ -49,6 +49,7 @@
 |2437. 저울|[링크](./%EB%B0%B1%EC%A4%80/Gold/2437.%E2%80%85%EC%A0%80%EC%9A%B8/%EC%A0%80%EC%9A%B8.java)|
 |25315. N수매화검법|[링크](./%EB%B0%B1%EC%A4%80/Gold/25315.%E2%80%85N%EC%88%98%EB%A7%A4%ED%99%94%EA%B2%80%EB%B2%95/README.md)|
 |25319. Twitch Plays VIIIbit Explorer|[링크](./%EB%B0%B1%EC%A4%80/Gold/25319.%E2%80%85Twitch%E2%80%85Plays%E2%80%85VIIIbit%E2%80%85Explorer/Twitch%E2%80%85Plays%E2%80%85VIIIbit%E2%80%85Explorer.java)|
+|2749. 피보나치 수 3|[링크](./%EB%B0%B1%EC%A4%80/Gold/2749.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98%E2%80%853/README.md)|
 ### 🚀 Platinum
 | 문제번호 | 링크 |
 | ----- | ----- |
