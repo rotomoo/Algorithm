@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="56809cce-fc5b-4d21-9387-a2f91e6f7c27" name="Changes" comment="" />
+    <list default="true" id="19108428-acfe-440c-96ad-d4e436a8bf2b" name="Changes" comment="[Medium] Title: Forming A Magic Square">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2uhmZ3Qqkoh3pmolDDlokaB9pL3" />
+  <component name="ProjectId" id="2vFbK1vVjqpj5guoPxFl8FhUd6B" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,22 +25,55 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/해커랭크/medium/formingAMagicSquare" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56809cce-fc5b-4d21-9387-a2f91e6f7c27" name="Changes" comment="" />
-      <created>1742709232603</created>
+      <changelist id="19108428-acfe-440c-96ad-d4e436a8bf2b" name="Changes" comment="[Medium] Title: Forming A Magic Square" />
+      <created>1743743701889</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742709232603</updated>
-      <workItem from="1742709235546" duration="12000" />
+      <updated>1743743701889</updated>
+      <workItem from="1743743703175" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Medium] Title: Forming A Magic Square" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Medium] Title: Forming A Magic Square" />
   </component>
 </project>
