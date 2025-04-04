@@ -194,3 +194,10 @@
 ### 🚀 unrated
 | 문제번호 | 링크 |
 | ----- | ----- |
+### 🚀 해커랭크
+| 문제번호 | 링크 |
+| ----- | ----- |
+### 🚀 medium
+| 문제번호 | 링크 |
+| ----- | ----- |
+|FormingAMagicSquare|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/FormingAMagicSquare/README.md)|
