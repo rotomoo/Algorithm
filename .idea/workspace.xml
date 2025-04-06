@@ -25,11 +25,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/java/Algorithm/해커랭크/medium/ExtraLongFactorials",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\Algorithm\해커랭크\medium\ExtraLongFactorials" />
+      <recent name="C:\java\Algorithm\해커랭크\medium\ClimbingTheLeaderboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/해커랭크/medium/formingAMagicSquare" />
     </key>
@@ -43,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743743701889</updated>
       <workItem from="1743743703175" duration="78000" />
+      <workItem from="1743841603152" duration="558000" />
+      <workItem from="1743931672265" duration="861000" />
     </task>
     <servers />
   </component>
