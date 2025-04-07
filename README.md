@@ -1,6 +1,14 @@
 # 
 # 백준 & 프로그래머스 문제 풀이 목록
 
+### 🚀 .idea
+| 문제번호 | 링크 |
+| ----- | ----- |
+|shelf|[링크](./.idea/shelf/Uncommitted_changes_before_Update_at_4_7_25__10_34AM__Changes_.xml)|
+### 🚀 shelf
+| 문제번호 | 링크 |
+| ----- | ----- |
+|Uncommitted_changes_before_Update_at_4_7_25,_10_34 AM_[Changes]|[링크](./.idea/shelf/Uncommitted_changes_before_Update_at_4_7_25%2C_10_34%E2%80%AFAM_%5BChanges%5D/shelved.patch)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
@@ -203,3 +211,4 @@
 |ClimbingTheLeaderboard|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ClimbingTheLeaderboard/ClimbingTheLeaderboard.java)|
 |ExtraLongFactorials|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ExtraLongFactorials/README.md)|
 |FormingAMagicSquare|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/FormingAMagicSquare/README.md)|
+|NonDivisibleSubset|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/NonDivisibleSubset/README.md)|
