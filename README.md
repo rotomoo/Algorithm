@@ -1,5 +1,6 @@
 # 
 # 백준 & 프로그래머스 문제 풀이 목록
+
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
@@ -187,7 +188,15 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |59413. 입양 시각 구하기（2）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59413.%E2%80%85%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%882%EF%BC%89/README.md)|
-## 📚 해커랭크
+### 🚀 lv2
+| 문제번호 | 링크 |
+| ----- | ----- |
+### 🚀 unrated
+| 문제번호 | 링크 |
+| ----- | ----- |
+### 🚀 해커랭크
+| 문제번호 | 링크 |
+| ----- | ----- |
 ### 🚀 medium
 | 문제번호 | 링크 |
 | ----- | ----- |
@@ -195,3 +204,4 @@
 |ExtraLongFactorials|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ExtraLongFactorials/README.md)|
 |FormingAMagicSquare|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/FormingAMagicSquare/README.md)|
 |NonDivisibleSubset|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/NonDivisibleSubset/README.md)|
+|TheTimeInWords|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/TheTimeInWords/README.md)|
