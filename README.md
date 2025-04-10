@@ -204,5 +204,6 @@
 |ExtraLongFactorials|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ExtraLongFactorials/README.md)|
 |FormingAMagicSquare|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/FormingAMagicSquare/README.md)|
 |NonDivisibleSubset|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/NonDivisibleSubset/README.md)|
+|OrganizingContainersOfBalls|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/OrganizingContainersOfBalls/README.md)|
 |Queen'sAttackII|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/Queen%27sAttackII/README.md)|
 |TheTimeInWords|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/TheTimeInWords/README.md)|
