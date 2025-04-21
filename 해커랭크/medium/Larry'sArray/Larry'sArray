@@ -1,0 +1,104 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+    /*
+     * Complete the 'highestValuePalindrome' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts following parameters:
+     *  1. STRING s
+     *  2. INTEGER n
+     *  3. INTEGER k
+     */
+
+    public static String highestValuePalindrome(String s, int n, int k) {
+        // Write your code here
+        StringBuilder sb = new StringBuilder(s);
+        boolean[] changeYns = new boolean[n];
+
+        int leftIdx = 0;
+        int rightIdx = n - 1;
+
+        while (leftIdx < rightIdx) {
+            if (sb.charAt(leftIdx) != sb.charAt(rightIdx)) {
+                char max = (char) Math.max(sb.charAt(leftIdx), sb.charAt(rightIdx));
+                sb.setCharAt(leftIdx, max);
+                sb.setCharAt(rightIdx, max);
+                changeYns[leftIdx] = changeYns[rightIdx] = true;
+                k--;
+            }
+            leftIdx++;
+            rightIdx--;
+        }
+
+        if (k < 0) {
+            return "-1";
+        }
+
+        leftIdx = 0;
+        rightIdx = n - 1;
+
+        while (leftIdx <= rightIdx && k > 0) {
+            if (leftIdx == rightIdx) {
+                if (sb.charAt(leftIdx) != '9' && k >= 1) {
+                    sb.setCharAt(leftIdx, '9');
+                    k--;
+                }
+            } else {
+                if (sb.charAt(leftIdx) != '9') {
+                    if (changeYns[leftIdx] || changeYns[rightIdx]) {
+                        if (k >= 1) {
+                            sb.setCharAt(leftIdx, '9');
+                            sb.setCharAt(rightIdx, '9');
+                            k--;
+                        }
+                    } else {
+                        if (k >= 2) {
+                            sb.setCharAt(leftIdx, '9');
+                            sb.setCharAt(rightIdx, '9');
+                            k -= 2;
+                        }
+                    }
+                }
+            }
+            leftIdx++;
+            rightIdx--;
+        }
+        return sb.toString();
+    }
+
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+        int n = Integer.parseInt(firstMultipleInput[0]);
+
+        int k = Integer.parseInt(firstMultipleInput[1]);
+
+        String s = bufferedReader.readLine();
+
+        String result = Result.highestValuePalindrome(s, n, k);
+
+        bufferedWriter.write(result);
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}
