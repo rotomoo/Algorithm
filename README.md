@@ -206,6 +206,7 @@
 ### 🚀 medium
 | 문제번호 | 링크 |
 | ----- | ----- |
+|3DSurfaceArea|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/3DSurfaceArea/README.md)|
 |ClimbingTheLeaderboard|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ClimbingTheLeaderboard/ClimbingTheLeaderboard.java)|
 |Encryption|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/Encryption/README.md)|
 |ExtraLongFactorials|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ExtraLongFactorials/README.md)|
