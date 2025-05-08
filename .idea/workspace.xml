@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="HARD" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -25,7 +28,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/tomoo/IdeaProjects/Algorithm/해커랭크/medium/NonDivisibleSubset",
+    "last_opened_file_path": "C:/java/Algorithm/해커랭크/medium/AbsolutePermutation",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -35,6 +38,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\Algorithm\해커랭크\medium\AbsolutePermutation" />
       <recent name="$PROJECT_DIR$/해커랭크/medium/NonDivisibleSubset" />
       <recent name="C:\java\Algorithm\해커랭크\medium\ExtraLongFactorials" />
       <recent name="C:\java\Algorithm\해커랭크\medium\ClimbingTheLeaderboard" />
@@ -54,6 +58,10 @@
       <workItem from="1743743703175" duration="78000" />
       <workItem from="1743841603152" duration="558000" />
       <workItem from="1743931672265" duration="861000" />
+      <workItem from="1745886044766" duration="376000" />
+      <workItem from="1746516047736" duration="3039000" />
+      <workItem from="1746575798727" duration="9000" />
+      <workItem from="1746671411487" duration="1102000" />
     </task>
     <servers />
   </component>
