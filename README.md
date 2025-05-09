@@ -224,6 +224,7 @@
 |AbsolutePermutation|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/AbsolutePermutation/README.md)|
 |BiggerIsGreater|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/BiggerIsGreater/README.md)|
 |ClimbingTheLeaderboard|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ClimbingTheLeaderboard/README.md)|
+|Ema'sSupercomputer|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/Ema%27sSupercomputer/README.md)|
 |Encryption|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/Encryption/Encryption.java)|
 |ExtraLongFactorials|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/ExtraLongFactorials/ExtraLongFactorials.Java)|
 |FormingAMagicSquare|[링크](./%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/medium/FormingAMagicSquare/FormingAMagicSquare.java)|
