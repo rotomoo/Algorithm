@@ -79,6 +79,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1019. 책 페이지|[링크](./%EB%B0%B1%EC%A4%80/Platinum/1019.%E2%80%85%EC%B1%85%E2%80%85%ED%8E%98%EC%9D%B4%EC%A7%80/README.md)|
+|1725. 히스토그램|[링크](./%EB%B0%B1%EC%A4%80/Platinum/1725.%E2%80%85%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8/README.md)|
 |1786. 찾기|[링크](./%EB%B0%B1%EC%A4%80/Platinum/1786.%E2%80%85%EC%B0%BE%EA%B8%B0/%EC%B0%BE%EA%B8%B0.java)|
 |3197. 백조의 호수|[링크](./%EB%B0%B1%EC%A4%80/Platinum/3197.%E2%80%85%EB%B0%B1%EC%A1%B0%EC%9D%98%E2%80%85%ED%98%B8%EC%88%98/README.md)|
 |9376. 탈옥|[링크](./%EB%B0%B1%EC%A4%80/Platinum/9376.%E2%80%85%ED%83%88%EC%98%A5/README.md)|
